@@ -131,6 +131,13 @@
 			<artifactId>hibernate-validator</artifactId>
 			<version>7.0.1.Final</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jboss.security/jboss-security-spi -->
+		<dependency>
+			<groupId>org.jboss.security</groupId>
+			<artifactId>jboss-security-spi</artifactId>
+			<version>2.1.0.20091223</version>
+			<type>pom</type>
+		</dependency>
 
 	</dependencies>
 </project>

@@ -37,6 +37,7 @@ public class Livro {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 
+	@NotBlank
 	private String titulo;
 
 	@Lob
